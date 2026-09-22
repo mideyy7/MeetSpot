@@ -1,0 +1,17 @@
+*.iml
+.gradle/
+/local.properties
+.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+/app/build
+/app/release
+
+# Real Firebase config has live project credentials — never commit it.
+# Copy app/google-services.json.example to app/google-services.json and
+# fill in your own project's values (see android/README.md).
+/app/google-services.json

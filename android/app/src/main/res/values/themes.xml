@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.MeetSpot" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#F5F4ED</item>
+        <item name="android:windowBackground">#F5F4ED</item>
+        <item name="android:navigationBarColor" tools:targetApi="lollipop">#F5F4ED</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+    </style>
+</resources>

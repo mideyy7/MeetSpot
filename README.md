@@ -32,3 +32,11 @@ to Google Maps rather than embedding a map.
 
 Production hosting uses the OpenNext bundle and the tracked `wrangler.jsonc`
 runtime configuration.
+
+## Android app
+
+`android/` is a native Kotlin + Jetpack Compose client with the same
+functionality as the web app (two-person search, Firebase-backed group rooms,
+profile with Google sign-in and Timeline processing), talking to this same
+backend and Firebase project. See [android/README.md](android/README.md) for
+setup, build, and test instructions.
